@@ -1,0 +1,23 @@
+**Data: Customer Transactions and Shopping Habits (helps with managing inventory and creating marketing strategies)**
+1) What data do you want to collect?
+- Data on Customer Transactions and Shopping Habits like: 
+- Purchase history
+- Product or service purchased 
+- Category 
+- Date and time of purchase (like the month)
+- Transaction amount 
+- Customer gender age and demographic 
+2) Why do you want that data?
+- By analyzing transaction data, the AI can learn to recognize patterns in customer behavior. This includes identifying which products or services are popular, how frequently customers make purchases, and their preferred payment methods.
+- Using this data can help with:
+- Sales forecasting: predict future sales for better inventory management and resource allocation.
+- Inventory Optimization: know which products sell best and when → optimizing inventory levels to reduce excess stock or stockouts.
+- Tailored Marketing Strategies: Customize marketing efforts based on customer demographics.
+- Seasonal Trends and Promotions: Reveal seasonal buying patterns for strategic planning of promotions and marketing campaigns.
+- Product Performance Analysis: Identify popular, underperforming, and high-profit-margin products, guiding inventory decisions and product development.
+- Customer Lifetime Value (CLV): estimate the potential value of a customer over their entire relationship with the business 
+3) How do you intend to obtain that data?
+- Kaggle links:
+https://www.kaggle.com/datasets/bkcoban/customer-transactions 
+https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset 
+https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset 

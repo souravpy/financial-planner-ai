@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.ant-menu-item-selected,
+.ant-menu-submenu-selected {
+    background-color: rgba(128, 128, 128, 0.31) !important;
+}
+
+.ant-form-item-label > label {
+    font-size: 24px !important;
+}
+
+@layer components {
+    .headerDiv {
+        @apply fixed top-0 h-[4.5rem] w-full flex items-center left-1/2
+        rounded-none border border-white border-opacity-40 
+        bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]
+        sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full;
+    }
+    .navbarStyle {
+        @apply flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 
+        py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0
+        justify-center items-center gap-y-1;
+    }
+}
